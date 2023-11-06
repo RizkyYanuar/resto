@@ -1,0 +1,14 @@
+GET http://localhost:5000/menus
+
+###
+
+POST  http://localhost:5000/menus
+Content-Type: application/json 
+
+{
+    "menuName": "Pork",
+    "stock": "12",
+    "price": "20000"
+}
+
+###
